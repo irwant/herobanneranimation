@@ -1,0 +1,60 @@
+<!doctype html>
+<html>
+
+<head>
+  <title>Video Animation Using GSAP ScrollTrigger</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">Irwanimation</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarCollapse">
+        <ul class="navbar-nav me-auto mb-2 mb-md-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Scroll trigger</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Motion graphic</a>
+          </li>
+          
+        </ul>
+        
+      </div>
+    </div>
+  </nav>
+
+<section class="hero">
+    <canvas class="hero-mouse"></canvas>
+    <div class="tek">scroll down</div>
+    <div class="tekd">scroll again</div>
+  <main class="cardabout">
+    <div class="bg-light p-5 rounded">
+      <h1>Hero Banner animation</h1>
+      <p class="lead">This is example how hero banner animation work with scroll trigger using GSAP library  </p>
+      </div>
+    </main>
+</section>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" ></script>
+
+
+  <!-- Gsap ScrollTrigger-->
+  <script src="https://unpkg.co/gsap@3/dist/gsap.min.js"></script>
+<script src="https://unpkg.com/gsap@3/dist/ScrollTrigger.min.js"></script>
+
+  <script src="main.js" charset="utf-8"></script>
+
+</body>
+
+</html>
