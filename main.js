@@ -44,12 +44,12 @@ gsap.timeline({
   })
   .to(text,{
     opacity:0,
-    duration: 0.5
+    duration: 0.2
     
   })
   .to(textd,{
     opacity:1,
-    duration: 0.5
+    duration: 0.2
 
   })
   
