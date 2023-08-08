@@ -43,10 +43,10 @@ body{
 }
 
 .home{
-    height: 100vh;
+    height: 400px;
     display: flex;
     align-items: center;
-    padding: 0 10%;
+    padding: 0 10% ;
 }
 
 .home-content{
@@ -73,6 +73,42 @@ body{
     height: 100vh;
     display: flex;
     align-items: center;
-    padding: 0 25%;
-    background-color: #f1f4ff;
+    background-color: aliceblue;
+  
 }
+.diagram-svg{
+    width: 100%;
+    padding: 0 19%;
+}
+
+#shadowring{
+    transform-origin: 41.3%;
+  animation: moving 3s linear infinite;
+  
+}
+#shadowcircle{
+    transform-origin: 41.3%;
+  animation: rotate 3s linear infinite;
+  
+}
+
+@keyframes moving{
+    to{
+        transform: rotate(360deg);
+    }
+}
+
+@keyframes rotate{
+    from{
+        transform: rotate(360deg);
+    }
+    to{
+        transform: rotate(0deg);
+    }
+}
+
+#icmanufacturing, #icconstruction, #icwholesale, #icbankinginsurance, #icphone, #ichealthcare,
+#icsaving, #ictower, #iccare, #icgoodybag, #ichouse, #icgraduate, #icbusiness, #icbtob, 
+#icagriculture, #icgear, #icfood {
+    cursor: pointer;
+  }
